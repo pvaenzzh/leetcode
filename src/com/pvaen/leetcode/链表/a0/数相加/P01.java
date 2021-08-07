@@ -1,6 +1,8 @@
 package com.pvaen.leetcode.链表.a0.数相加;
 
 
+import com.pvaen.leetcode.链表.a0.ListNode;
+
 /**
  * https://leetcode-cn.com/problems/add-two-numbers/submissions/
  * 2 ms	38.4 MB	Java	2021/08/07 00:02
@@ -57,22 +59,5 @@ public class P01 {
         return null == node ? null : node.next;
     }
 
-
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
 
 }
